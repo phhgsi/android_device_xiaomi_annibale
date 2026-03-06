@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/onyx
+DEVICE_PATH := device/xiaomi/annibale
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
@@ -229,4 +229,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Vendor
-include vendor/xiaomi/onyx/BoardConfigVendor.mk
+include vendor/xiaomi/annibale/BoardConfigVendor.mk

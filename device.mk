@@ -241,7 +241,7 @@ PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore_V3.xml
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/hal_uuid_map.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_onyx.xml
+    $(LOCAL_PATH)/configs/hal_uuid_map.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_annibale.xml
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml \
@@ -294,22 +294,22 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    ApertureOverlayOnyx \
-    CarrierConfigOverlayOnyx \
-    SystemUIOverlayOnyx \
-    TelephonyOverlayOnyx \
-    FrameworkOverlayOnyx \
-    FrameworkOverlayOnyxGL \
-    LineageDialerOverlayOnyx \
-    LineageSDKOverlayOnyx \
-    LineageSettingsOverlayOnyx \
-    NfcOverlayOnyx \
-    SettingsOverlayOnyx \
-    SettingsProviderOverlayOnyx \
-    SettingsProviderOverlayOnyxCN \
-    SecureElementOverlayOnyx \
-    WifiOverlayOnyx \
-    WifiOverlayOnyxCN
+    ApertureOverlayAnnibale \
+    CarrierConfigOverlayAnnibale \
+    SystemUIOverlayAnnibale \
+    TelephonyOverlayAnnibale \
+    FrameworkOverlayAnnibale \
+    FrameworkOverlayAnnibaleGL \
+    LineageDialerOverlayAnnibale \
+    LineageSDKOverlayAnnibale \
+    LineageSettingsOverlayAnnibale \
+    NfcOverlayAnnibale \
+    SettingsOverlayAnnibale \
+    SettingsProviderOverlayAnnibale \
+    SettingsProviderOverlayAnnibaleCN \
+    SecureElementOverlayAnnibale \
+    WifiOverlayAnnibale \
+    WifiOverlayAnnibaleCN
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -328,7 +328,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
-$(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(LOCAL_PATH):libpowermode-ext-onyx)
+$(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(LOCAL_PATH):libpowermode-ext-annibale)
 
 # Properties
 PRODUCT_COPY_FILES += \
@@ -482,4 +482,4 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.aware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.aware.xml
 
 # Vendor
-$(call inherit-product, vendor/xiaomi/onyx/onyx-vendor.mk)
+$(call inherit-product, vendor/xiaomi/annibale/annibale-vendor.mk)

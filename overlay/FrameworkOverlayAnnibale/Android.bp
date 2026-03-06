@@ -1,0 +1,16 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "FrameworkOverlayAnnibale",
+    vendor: true,
+}
+
+runtime_resource_overlay {
+    name: "FrameworkOverlayAnnibaleGL",
+    manifest: "AndroidManifest-GL.xml",
+    resource_dirs: ["res-GL"],
+    vendor: true,
+}

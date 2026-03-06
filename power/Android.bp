@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libpowermode-ext-onyx",
+    name: "libpowermode-ext-annibale",
     defaults: [
         "android.hardware.power-ndk_shared",
     ],
