@@ -264,7 +264,6 @@ vendor/lib64/libxlog.so
 vendor/lib64/vendor.qti.hardware.agm-V1-ndk.so
 
 # Audio configs
-etc/audio_effects.xml
 odm/etc/audio/sku_sun/adsp_sleep_monitor.conf
 odm/etc/audio/sku_sun/mixer_paths_overlay_dynamic.xml
 odm/etc/audio/sku_sun/mixer_paths_overlay_static.xml
@@ -5618,4 +5617,4 @@ vendor/lib64/wifi_legacy.so
 vendor/lib64/xiaomi.system.hypsys.common-V1-ndk.so
 #Extra 
 system_ext/lib64/libc++_shared.so
-vendor/lib64/libSNPE.so
+odm/lib64/libSNPE.so:vendor/lib64/libSNPE.so
