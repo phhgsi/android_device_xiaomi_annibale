@@ -5642,3 +5642,6 @@ vendor/lib64/vendor.xiaomi.sensor.camera-V1-ndk.so
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice-V1-ndk.so
 vendor/lib64/wifi_legacy.so
 vendor/lib64/xiaomi.system.hypsys.common-V1-ndk.so
+#Extra 
+system_ext/lib64/libc++_shared.so
+vendor/lib64/libSNPE.so
