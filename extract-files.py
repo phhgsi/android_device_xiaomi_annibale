@@ -104,13 +104,6 @@ blob_fixups: blob_fixups_user_type = {
             'libaudioroute.so',
             'libaudioroute-v34.so'
     ),
-    (
-        `system_ext/lib64/libdiag_system.so',
-    ); blob_fixup()
-        .replace_needed(
-            'vendor.qti.diaghal-V1-ndk.so',
-            'vendor.qti.diaghal-V1-ndk_vendor.so',
-    ),
 
     (
         'odm/bin/hw/vendor.xiaomi.hw.touchfeature-service',
