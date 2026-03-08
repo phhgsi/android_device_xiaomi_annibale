@@ -186,7 +186,6 @@ vendor/lib64/com.dsi.ant@1.0.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.usb.default.so
-vendor/lib64/libalsautils.so
 
 # Audio (FX modules)
 vendor/lib64/soundfx/libbundleaidl.so
@@ -2632,7 +2631,6 @@ vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.vpp-service.xml
 vendor/lib64/libOmxCore.so
 vendor/lib64/libcodec2_aidl.so
-vendor/lib64/libcodec2_hal_common.so
 vendor/lib64/libcodec2_hidl@1.1.so
 vendor/lib64/libcodec2_hidl@1.2.so
 vendor/lib64/libcodec2_hidl_plugin.so
