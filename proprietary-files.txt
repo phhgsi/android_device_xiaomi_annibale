@@ -3569,7 +3569,7 @@ vendor/lib64/libpasn.so
 vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/libwifi-hal-qcom.so
 vendor/lib64/libwifi-hal.so
-vendor/lib64/vendor.qti.hardware.wifi.supplicant-V1-ndk.so
+system_ext/lib64/vendor.qti.hardware.wifi.supplicant-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.wifi.wifilearner-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.wifi.hardware-V1-ndk.so
@@ -4928,7 +4928,7 @@ vendor/lib64/libVoiceSdk.so
 vendor/lib64/libWlanServiceJni.so
 vendor/lib64/lib_AIVC_decoder.so
 vendor/lib64/lib_AIVC_encoder.so
-vendor/lib64/lib_android_keymaster_keymint_utils.so
+system/lib64/lib_android_keymaster_keymint_utils.so
 vendor/lib64/lib_bt_aptx.so
 vendor/lib64/lib_bt_ble.so
 vendor/lib64/lib_bt_bundle.so
