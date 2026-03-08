@@ -2631,7 +2631,6 @@ vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.vpp-service.xml
 vendor/lib64/libOmxCore.so
 vendor/lib64/libcodec2_aidl.so
-vendor/lib64/libcodec2_hidl@1.1.so
 vendor/lib64/libcodec2_hidl@1.2.so
 vendor/lib64/libcodec2_hidl_plugin.so
 vendor/lib64/libcodec2_store_mi.so
@@ -4983,7 +4982,6 @@ vendor/lib64/libcneqmiutils.so
 vendor/lib64/libcodec2_soft_ac4dec.so
 vendor/lib64/libcodec2_soft_aivc_dec.so
 vendor/lib64/libcodec2_soft_aivc_enc.so
-vendor/lib64/libcodec2_soft_common.so
 vendor/lib64/libcodec2_soft_ddpdec.so
 vendor/lib64/libcodec2_soft_mihc_dec.so
 vendor/lib64/libcodec2_soft_mihc_enc.so
@@ -5336,7 +5334,6 @@ vendor/lib64/vendor.qti.hardware.minkipcbinder-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.pal-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.paleventnotifier-V2-ndk.so
 vendor/lib64/vendor.qti.hardware.qasr-V2-ndk.so
-vendor/lib64/vendor.qti.hardware.qspa-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.systemhelper@1.0.so
 vendor/lib64/vendor.qti.hardware.systemhelperaidl-V1-ndk.so
 vendor/lib64/vendor.xiaomi.aidl.minet-V1-ndk.so
