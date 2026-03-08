@@ -4928,7 +4928,7 @@ vendor/lib64/libVoiceSdk.so
 vendor/lib64/libWlanServiceJni.so
 vendor/lib64/lib_AIVC_decoder.so
 vendor/lib64/lib_AIVC_encoder.so
-system/lib64/lib_android_keymaster_keymint_utils.so
+system/system/lib64/lib_android_keymaster_keymint_utils.so
 vendor/lib64/lib_bt_aptx.so
 vendor/lib64/lib_bt_ble.so
 vendor/lib64/lib_bt_bundle.so
