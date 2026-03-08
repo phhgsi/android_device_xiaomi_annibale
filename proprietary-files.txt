@@ -2123,7 +2123,7 @@ odm/firmware/evass.mbn
 odm/firmware/evass.mdt
 
 # Display (HWC)
-service.xmlvendor/lib64/hw/gralloc.default.so
+vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/vulkan.adreno.so
 vendor/lib64/libBlAlgointf.so
 vendor/lib64/libEGL_adreno.so
