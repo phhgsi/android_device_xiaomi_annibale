@@ -698,7 +698,6 @@ odm/lib64/libIntelligentFocus.so
 odm/lib64/libMiEmojiEffect.so
 odm/lib64/libMiPhotoFilter.so
 odm/lib64/libMiVideoFilter.so
-odm/lib64/libSNPE.so
 odm/lib64/libaispalgoprocessor.so
 odm/lib64/libanc_edof.so
 odm/lib64/libanc_edof_checker.so
@@ -2268,11 +2267,8 @@ vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service3_v3.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.displayfeature_aidl-service.xml
 vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so
-vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/vulkan.adreno.so
@@ -2894,7 +2890,6 @@ vendor/lib64/vendor.qti.hardware.qxr-V2-ndk.so
 
 # Radio
 product/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
-product/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
 vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrilNrd
 vendor/bin/adpl
