@@ -444,3 +444,21 @@ vendor/lib64/libagm_pcm_plugin.so
 vendor/lib64/libdsd2pcm.so
 vendor/lib64/libeai_fixed.so
 vendor/lib64/libeai_float.so
+
+# Fingerprint (device-specific - NOT in common tree)
+odm/lib64/hw/fingerprint.goodix_us2.so
+odm/lib64/hw/fingerprint.qcom_us.so
+odm/firmware/goodix_cfg_group_annibale.bin
+odm/firmware/goodix_firmware_annibale.bin
+odm/firmware/168_fingerprintRecord_P_RTP.bin
+odm/firmware/210_FingerprintUnlock_P_RTP.bin
+odm/firmware/goodix_test_limits_255.csv
+odm/firmware/goodix_test_limits_aftersale_255.csv
+odm/firmware/goodix_test_limits_runin_255.csv
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib64/vendor.qti.hardware.fingerprint-V1-ndk.so
+system_ext/lib64/vendor.qti.hardware.fingerprint@1.0.so
+system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
+system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so
+vendor/lib64/com.fingerprints.extension3-V1-ndk.so
+odm/lib64/libtouchreport_alg_goodix.so
